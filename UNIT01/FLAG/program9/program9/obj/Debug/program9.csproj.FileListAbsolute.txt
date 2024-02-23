@@ -1,0 +1,9 @@
+D:\dhruvil@3022\c sharp\program9\program9\bin\Debug\program9.exe.config
+D:\dhruvil@3022\c sharp\program9\program9\obj\Debug\program9.csprojResolveAssemblyReference.cache
+D:\dhruvil@3022\c sharp\program9\program9\obj\Debug\program9.Form1.resources
+D:\dhruvil@3022\c sharp\program9\program9\obj\Debug\program9.Properties.Resources.resources
+D:\dhruvil@3022\c sharp\program9\program9\obj\Debug\program9.csproj.GenerateResource.Cache
+D:\dhruvil@3022\c sharp\program9\program9\bin\Debug\program9.exe
+D:\dhruvil@3022\c sharp\program9\program9\bin\Debug\program9.pdb
+D:\dhruvil@3022\c sharp\program9\program9\obj\Debug\program9.exe
+D:\dhruvil@3022\c sharp\program9\program9\obj\Debug\program9.pdb
