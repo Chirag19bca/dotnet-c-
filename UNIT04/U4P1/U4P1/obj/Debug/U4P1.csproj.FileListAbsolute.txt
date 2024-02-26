@@ -1,0 +1,9 @@
+D:\Chriag\C#\U4P1\U4P1\bin\Debug\U4P1.exe.config
+D:\Chriag\C#\U4P1\U4P1\bin\Debug\U4P1.exe
+D:\Chriag\C#\U4P1\U4P1\bin\Debug\U4P1.pdb
+D:\Chriag\C#\U4P1\U4P1\obj\Debug\U4P1.csprojResolveAssemblyReference.cache
+D:\Chriag\C#\U4P1\U4P1\obj\Debug\U4P1.Form1.resources
+D:\Chriag\C#\U4P1\U4P1\obj\Debug\U4P1.Properties.Resources.resources
+D:\Chriag\C#\U4P1\U4P1\obj\Debug\U4P1.csproj.GenerateResource.Cache
+D:\Chriag\C#\U4P1\U4P1\obj\Debug\U4P1.exe
+D:\Chriag\C#\U4P1\U4P1\obj\Debug\U4P1.pdb
