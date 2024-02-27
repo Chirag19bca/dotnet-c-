@@ -1,0 +1,8 @@
+D:\chirag\C#\UNIT04\U4P3\U4P3\bin\Debug\U4P3.exe.config
+D:\chirag\C#\UNIT04\U4P3\U4P3\bin\Debug\U4P3.exe
+D:\chirag\C#\UNIT04\U4P3\U4P3\bin\Debug\U4P3.pdb
+D:\chirag\C#\UNIT04\U4P3\U4P3\obj\Debug\U4P3.Form1.resources
+D:\chirag\C#\UNIT04\U4P3\U4P3\obj\Debug\U4P3.Properties.Resources.resources
+D:\chirag\C#\UNIT04\U4P3\U4P3\obj\Debug\U4P3.csproj.GenerateResource.Cache
+D:\chirag\C#\UNIT04\U4P3\U4P3\obj\Debug\U4P3.exe
+D:\chirag\C#\UNIT04\U4P3\U4P3\obj\Debug\U4P3.pdb
