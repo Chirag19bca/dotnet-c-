@@ -1,0 +1,10 @@
+C:\Users\Sadhu\Documents\C#\UNIT02\RGB\RGB\bin\Debug\RGB.exe.config
+C:\Users\Sadhu\Documents\C#\UNIT02\RGB\RGB\bin\Debug\RGB.exe
+C:\Users\Sadhu\Documents\C#\UNIT02\RGB\RGB\bin\Debug\RGB.pdb
+C:\Users\Sadhu\Documents\C#\UNIT02\RGB\RGB\obj\Debug\RGB.csproj.AssemblyReference.cache
+C:\Users\Sadhu\Documents\C#\UNIT02\RGB\RGB\obj\Debug\RGB.Form1.resources
+C:\Users\Sadhu\Documents\C#\UNIT02\RGB\RGB\obj\Debug\RGB.Properties.Resources.resources
+C:\Users\Sadhu\Documents\C#\UNIT02\RGB\RGB\obj\Debug\RGB.csproj.GenerateResource.cache
+C:\Users\Sadhu\Documents\C#\UNIT02\RGB\RGB\obj\Debug\RGB.csproj.CoreCompileInputs.cache
+C:\Users\Sadhu\Documents\C#\UNIT02\RGB\RGB\obj\Debug\RGB.exe
+C:\Users\Sadhu\Documents\C#\UNIT02\RGB\RGB\obj\Debug\RGB.pdb
