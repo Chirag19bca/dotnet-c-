@@ -13,38 +13,58 @@ namespace U4P2
 {
     public partial class Form1 : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\aaa\Documents\mybca.mdf;Integrated Security=True;Connect Timeout=30");
-        SqlCommand cmd = new SqlCommand();
-        SqlDataAdapter adp = new SqlDataAdapter(cmd);
-        DataSet ds = new DataSet();
-        SqlDataReader dr;
+        public SqlConnection con;
+        //SqlConnection con = new SqlConnection(@"Data Source=localhost\SQLEXPRESS01;Initial Catalog=bca;Integrated Security=True;Connect Timeout=30");
+        SqlCommand cmd;
         //SqlCommandBuilder cb = new SqlCommandBuilder();
         public Form1()
         {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            con.Open();
-            
-            cmd=new SqlCommand("select * from tblbca where username = "+textBox1.Text+"and password = "+textBox2.Text+"",con);
-            dr = cmd.ExecuteReader();
-            if (dr.Read())
+            cmd = new SqlCommand();
+            cmd.CommandText = "select password from tblbca where user='" + textBox1.Text+"'";
+            cmd.Connection = con;
+            string op;
+            op = Convert.ToString(cmd.ExecuteScalar());
+            if (op!="")
             {
-                MessageBox.Show("successfully login");
+                if(op==textBox2.Text)
+                {
+                    MessageBox.Show("Successfully login completed");
+                    Form2 frm = new Form2();
+                    frm.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Invaild username and password");
+                    textBox1.Clear();
+                    textBox2.Clear();
+                    textBox1.Focus();
+                }
             }
             else
             {
                 MessageBox.Show("Invaild username and password");
+                textBox1.Clear();
+                textBox2.Clear();
+                textBox1.Focus();
             }
-            con.Close();
-            
+
+
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\aaa\Documents\mybca.mdf;Integrated Security=True;Connect Timeout=30");
+            con = new SqlConnection();
+            con = new SqlConnection(@"Data Source=localhost\SQLEXPRESS01;Initial Catalog=bca;Integrated Security=True;Encrypt=False");
+           // con.ConnectionString= "Data Source = localhost\\SQLEXPRESS01; Initial Catalog = bca; Integrated Security = True; Encrypt = False";
+            con.Open();
+            MessageBox.Show(con.State.ToString());
+          //  SqlConnection con = new SqlConnection(@"Data Source=localhost\SQLEXPRESS01;Initial Catalog=bca;Integrated Security=True;Encrypt=False");
 
         }
     }
