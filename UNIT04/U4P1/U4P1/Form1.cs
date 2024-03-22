@@ -19,7 +19,7 @@ namespace U4P1
         }
 
 
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\aaa\Documents\mybca2.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection(@"Data Source=localhost\SQLEXPRESS01;Initial Catalog=bca;Integrated Security=True;Encrypt=False");
         SqlCommand cmd = new SqlCommand();
         SqlDataAdapter adp = new SqlDataAdapter();
         DataSet ds = new DataSet();
@@ -31,11 +31,8 @@ namespace U4P1
             adp = new SqlDataAdapter(cmd);
             ds = new DataSet();
             pos = 0;
-            adp.Fill(ds);
-           // dataGridView1.DataSource = ds.Tables[0];
-            textBox1.Text = ds.Tables[0].Rows[0].ItemArray[0].ToString();
-            textBox2.Text = ds.Tables[0].Rows[0].ItemArray[1].ToString();
-            textBox3.Text = ds.Tables[0].Rows[0].ItemArray[2].ToString();
+            adp.Fill(ds,"tblbca");
+            showdata();
         }
 
         private void showdata()
@@ -79,8 +76,6 @@ namespace U4P1
             textBox1.Text = "";
             textBox2.Text = "";
             textBox3.Text = "";
-           // cmd = new SqlCommand("insert into tblbca values"textBox1.Text", "textBox2.Text","textBox3.Text", con);
-            cmd.ExecuteNonQuery();
             textBox1.Focus();
             addmode = true;
         }
@@ -89,21 +84,11 @@ namespace U4P1
         {
             if (addmode == true)
             {
-                DataRow dt = ds.Tables[0].NewRow();
-                dt[0] = textBox1.Text;
-                dt[1] = textBox2.Text;
-                dt[2] = textBox3.Text;
-                ds.Tables[0].Rows.Add(dt);
-                adp.Update(ds, "tblbca");
+                cmd = new SqlCommand("insert into tblbca values('"+textBox1.Text+"','"+textBox2.Text+"','"+textBox3.Text+"')", con);
+                adp = new SqlDataAdapter(cmd);
+                ds = new DataSet();
+                adp.Fill(ds, "tblbca");
                 addmode = false;
-            }
-            else
-            {
-                DataRow dt = ds.Tables[0].NewRow();
-                dt[0] = textBox1.Text;
-                dt[1] = textBox2.Text;
-                dt[2] = textBox3.Text;
-                adp.Update(ds, "tblbca");
             }
         }
 
@@ -113,8 +98,11 @@ namespace U4P1
             dl = MessageBox.Show("Are you sure? Do You Want to delete this record?","Confirm!!!",MessageBoxButtons.YesNo);
             if (dl == DialogResult.Yes)
             {
-                ds.Tables[0].Rows[pos].Delete();
-                adp.Update(ds,"tblbca");
+                cmd = new SqlCommand("delete form tblbca", con);
+                adp=new SqlDataAdapter(cmd);
+                ds= new DataSet();
+               // ds.Tables[0].Rows[pos].Delete();
+                adp.Fill(ds,"tblbca");
                 pos = 0;
                 showdata();
             }
