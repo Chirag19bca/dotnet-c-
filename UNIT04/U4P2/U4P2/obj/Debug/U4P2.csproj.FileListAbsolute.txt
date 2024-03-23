@@ -17,4 +17,3 @@ C:\Users\Sadhu\Documents\C#\UNIT04\U4P2\U4P2\obj\Debug\U4P2.pdb
 C:\Users\Sadhu\Documents\C#\UNIT04\U4P2\U4P2\bin\Debug\U4P2.exe.config
 C:\Users\Sadhu\Documents\C#\UNIT04\U4P2\U4P2\bin\Debug\U4P2.exe
 C:\Users\Sadhu\Documents\C#\UNIT04\U4P2\U4P2\bin\Debug\U4P2.pdb
-C:\Users\Sadhu\Documents\C#\UNIT04\U4P2\U4P2\obj\Debug\U4P2.Form2.resources
