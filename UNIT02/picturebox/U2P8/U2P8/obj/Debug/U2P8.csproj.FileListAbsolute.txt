@@ -7,3 +7,13 @@ D:\Chriag\C#\U2P8\U2P8\obj\Debug\U2P8.Properties.Resources.resources
 D:\Chriag\C#\U2P8\U2P8\obj\Debug\U2P8.csproj.GenerateResource.Cache
 D:\Chriag\C#\U2P8\U2P8\obj\Debug\U2P8.exe
 D:\Chriag\C#\U2P8\U2P8\obj\Debug\U2P8.pdb
+C:\Users\Sadhu\Documents\C#\UNIT02\picturebox\U2P8\U2P8\bin\Debug\U2P8.exe.config
+C:\Users\Sadhu\Documents\C#\UNIT02\picturebox\U2P8\U2P8\bin\Debug\U2P8.exe
+C:\Users\Sadhu\Documents\C#\UNIT02\picturebox\U2P8\U2P8\bin\Debug\U2P8.pdb
+C:\Users\Sadhu\Documents\C#\UNIT02\picturebox\U2P8\U2P8\obj\Debug\U2P8.csproj.AssemblyReference.cache
+C:\Users\Sadhu\Documents\C#\UNIT02\picturebox\U2P8\U2P8\obj\Debug\U2P8.Form1.resources
+C:\Users\Sadhu\Documents\C#\UNIT02\picturebox\U2P8\U2P8\obj\Debug\U2P8.Properties.Resources.resources
+C:\Users\Sadhu\Documents\C#\UNIT02\picturebox\U2P8\U2P8\obj\Debug\U2P8.csproj.GenerateResource.cache
+C:\Users\Sadhu\Documents\C#\UNIT02\picturebox\U2P8\U2P8\obj\Debug\U2P8.csproj.CoreCompileInputs.cache
+C:\Users\Sadhu\Documents\C#\UNIT02\picturebox\U2P8\U2P8\obj\Debug\U2P8.exe
+C:\Users\Sadhu\Documents\C#\UNIT02\picturebox\U2P8\U2P8\obj\Debug\U2P8.pdb

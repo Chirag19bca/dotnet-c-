@@ -22,7 +22,7 @@ namespace U2P8
             OpenFileDialog open = new OpenFileDialog();
             if (open.ShowDialog() == DialogResult.OK)
             {
-                pictureBox1.Image = new Bitmap(open.FileName);
+                pictureBox1.Image = Image.FromFile(open.FileName);
 
             }
         }
