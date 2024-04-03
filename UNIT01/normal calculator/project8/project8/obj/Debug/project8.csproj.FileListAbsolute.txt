@@ -16,3 +16,13 @@ C:\Users\Sadhu\Documents\C#\project8\project8\obj\Debug\project8.csproj.Generate
 C:\Users\Sadhu\Documents\C#\project8\project8\obj\Debug\project8.csproj.CoreCompileInputs.cache
 C:\Users\Sadhu\Documents\C#\project8\project8\obj\Debug\project8.exe
 C:\Users\Sadhu\Documents\C#\project8\project8\obj\Debug\project8.pdb
+C:\Users\Sadhu\Documents\C#\UNIT01\normal calculator\project8\project8\bin\Debug\project8.exe.config
+C:\Users\Sadhu\Documents\C#\UNIT01\normal calculator\project8\project8\bin\Debug\project8.exe
+C:\Users\Sadhu\Documents\C#\UNIT01\normal calculator\project8\project8\bin\Debug\project8.pdb
+C:\Users\Sadhu\Documents\C#\UNIT01\normal calculator\project8\project8\obj\Debug\project8.csproj.AssemblyReference.cache
+C:\Users\Sadhu\Documents\C#\UNIT01\normal calculator\project8\project8\obj\Debug\project8.Form1.resources
+C:\Users\Sadhu\Documents\C#\UNIT01\normal calculator\project8\project8\obj\Debug\project8.Properties.Resources.resources
+C:\Users\Sadhu\Documents\C#\UNIT01\normal calculator\project8\project8\obj\Debug\project8.csproj.GenerateResource.cache
+C:\Users\Sadhu\Documents\C#\UNIT01\normal calculator\project8\project8\obj\Debug\project8.csproj.CoreCompileInputs.cache
+C:\Users\Sadhu\Documents\C#\UNIT01\normal calculator\project8\project8\obj\Debug\project8.exe
+C:\Users\Sadhu\Documents\C#\UNIT01\normal calculator\project8\project8\obj\Debug\project8.pdb

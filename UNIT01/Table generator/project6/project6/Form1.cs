@@ -20,7 +20,7 @@ namespace project6
         private void button1_Click(object sender, EventArgs e)
         {
             int i, num;
-            num = Convert.ToInt16(numericUpDown1.Value);
+            num = Int32.Parse(textBox1.Text);
             listBox1.Items.Clear();
             for(i=1;i<=10;i++)
             {
