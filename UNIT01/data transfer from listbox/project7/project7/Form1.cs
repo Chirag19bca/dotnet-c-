@@ -19,13 +19,11 @@ namespace project7
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int i,n;
-            n = listBox1.SelectedItems.Count;
-            for (i = 0; i <= n; i++)
-            {
-                listBox2.Items.Add(listBox1.Items[0]);
-                listBox1.Items.Remove(listBox1.Items[0]);
-            }
+       
+         
+                listBox2.Items.Add(listBox1.SelectedItem);
+                listBox1.Items.Remove(listBox1.SelectedItem);
+            
         }
 
         private void button2_Click(object sender, EventArgs e)

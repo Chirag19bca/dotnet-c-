@@ -22,13 +22,13 @@ namespace project5
             float f, c;
             if (radioButton1.Checked == true)
             {
-                f = Convert.ToSingle(textBox1.Text);
+                f = float.Parse(textBox1.Text);
                 c=(5*(f-32))/9;
                 MessageBox.Show(Convert.ToString(f)+" Fahrenheit is Equal to "+Convert.ToString(c)+" Celsius");
             }
             else if(radioButton2.Checked==true)
             {
-                c = Convert.ToSingle(textBox1.Text);
+                c = float.Parse(textBox1.Text);
                 f = ((9*c)/5) + 32;
                 MessageBox.Show(Convert.ToString(c) + " Celsisus is Equal to " + Convert.ToString(f) + " Fahrenheit");
             }

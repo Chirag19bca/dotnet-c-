@@ -21,7 +21,7 @@ namespace program9
         {
             if (radioButton1.Checked == true)
             {
-                pictureBox1.Image = Image.FromFile("D:\\dhruvil@3022\\c sharp\\program9\\india.png");
+                pictureBox1.Image = Image.FromFile("C:\\Users\\Sadhu\\Documents\\C#\\UNIT01\\FLAG\\program9\\india.png");
             }
         }
 
@@ -29,7 +29,7 @@ namespace program9
         {
             if (radioButton2.Checked == true)
             {
-                pictureBox1.Image = Image.FromFile("D:\\dhruvil@3022\\c sharp\\program9\\america.png");
+                pictureBox1.Image = Image.FromFile("C:\\Users\\Sadhu\\Documents\\C#\\UNIT01\\FLAG\\program9\\america.png");
             }
         }
 
@@ -37,7 +37,7 @@ namespace program9
         {
             if (radioButton3.Checked == true)
             {
-                pictureBox1.Image = Image.FromFile("D:\\dhruvil@3022\\c sharp\\program9\\canada.png");
+                pictureBox1.Image = Image.FromFile("C:\\Users\\Sadhu\\Documents\\C#\\UNIT01\\FLAG\\program9\\canada.png");
             }
         }
 
@@ -45,7 +45,7 @@ namespace program9
         {
             if (radioButton4.Checked == true)
             {
-                pictureBox1.Image = Image.FromFile("D:\\dhruvil@3022\\c sharp\\program9\\shrilanka.jpg");
+                pictureBox1.Image = Image.FromFile("C:\\Users\\Sadhu\\Documents\\C#\\UNIT01\\FLAG\\program9\\shrilanka.jpg");
             }
         }
     }
