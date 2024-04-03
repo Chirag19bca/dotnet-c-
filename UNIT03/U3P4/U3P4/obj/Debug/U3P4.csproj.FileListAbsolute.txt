@@ -1,0 +1,10 @@
+C:\Users\Sadhu\Documents\C#\UNIT03\U3P4\U3P4\bin\Debug\U3P4.exe.config
+C:\Users\Sadhu\Documents\C#\UNIT03\U3P4\U3P4\bin\Debug\U3P4.exe
+C:\Users\Sadhu\Documents\C#\UNIT03\U3P4\U3P4\bin\Debug\U3P4.pdb
+C:\Users\Sadhu\Documents\C#\UNIT03\U3P4\U3P4\obj\Debug\U3P4.csproj.AssemblyReference.cache
+C:\Users\Sadhu\Documents\C#\UNIT03\U3P4\U3P4\obj\Debug\U3P4.Form1.resources
+C:\Users\Sadhu\Documents\C#\UNIT03\U3P4\U3P4\obj\Debug\U3P4.Properties.Resources.resources
+C:\Users\Sadhu\Documents\C#\UNIT03\U3P4\U3P4\obj\Debug\U3P4.csproj.GenerateResource.cache
+C:\Users\Sadhu\Documents\C#\UNIT03\U3P4\U3P4\obj\Debug\U3P4.csproj.CoreCompileInputs.cache
+C:\Users\Sadhu\Documents\C#\UNIT03\U3P4\U3P4\obj\Debug\U3P4.exe
+C:\Users\Sadhu\Documents\C#\UNIT03\U3P4\U3P4\obj\Debug\U3P4.pdb
