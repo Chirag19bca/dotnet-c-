@@ -41,7 +41,7 @@ namespace project9
                 {
                     spsymbol++;
                 }
-                else if (ch == 'a' || ch == 'e' || ch == 'o' || ch == 'i' || ch == 'u')
+                else if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
                 {
                     vowel++;
                 }
@@ -49,9 +49,10 @@ namespace project9
                 {
                     consonant++;
                 }
-                String str = "There are \n" + vowel + "-vowels\n" + digits + "-digits\n" + spsymbol + "Special Symboles\n" + spaces + "-spaces\n found in this text";
-                MessageBox.Show(str);
+               
             }
+            String str = "There are \n" + vowel + "-vowels\n" + digits + "-digits\n" + spsymbol + "-Special Symboles\n" + spaces + "-spaces\n found in this text";
+            MessageBox.Show(str);
         }
     }
 }
